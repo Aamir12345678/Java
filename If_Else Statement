@@ -1,0 +1,18 @@
+public class Ifelse {
+     public static void main(String[] args){
+         
+        int test = 6;
+        
+        if( test == 9){
+            System.out.println("Yes");
+        }
+            else {
+            System.out.println("This will be else");
+        }
+     }    
+}
+------------------------///---------------------
+run:
+This will be else
+BUILD SUCCESSFUL (total time: 1 second)
+
