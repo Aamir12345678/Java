@@ -1,0 +1,29 @@
+
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Tuna extends JFrame {
+
+    private JLabel item1;
+
+    public Tuna() {
+        super("The title Bar");
+        setLayout(new FlowLayout()); /// Default Layout
+        item1 = new JLabel("This is a sentence");
+        item1.setToolTipText("This is a will pop up");
+        add(item1);
+    }
+}
+
+----////-----Main File----////----
+import javax.swing.JFrame;
+public class GUIwithJFrame {
+    public static void main(String[] args){
+    Tuna r = new Tuna();
+    r.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    r.setSize(125,185);
+    r.setVisible(true);
+
+}
+}
