@@ -1,0 +1,27 @@
+Consider a Class Tuna.
+
+public class Tuna {
+    public void simpleMessage(String name){
+            System.out.println("The name of your is " + name);
+        }
+}
+
+Consider a Main Method to run these class .
+
+import java.util.Scanner;
+
+public class ManyMethod {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Tuna r = new Tuna();
+        String name = input.nextLine();
+        r.simpleMessage(name);
+    }
+}
+
+-------/////=====---////-----------
+run:
+Npu
+The name of your is Npu
+BUILD SUCCESSFUL (total time: 8 seconds)
