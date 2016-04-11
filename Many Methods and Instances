@@ -1,0 +1,37 @@
+
+public class Tuna {
+
+    private String myname; // only method inside this class can use this private means
+
+    public String getMyname() {
+        return myname;
+    }
+
+    public void setMyname(String myname) {
+        this.myname = myname;
+    }
+
+    public void setting() {
+        System.out.println("My name is " + getMyname());
+    }
+}
+
+import java.util.Scanner;
+
+public class ManyMethod {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Tuna r = new Tuna();
+        System.out.print("The first name of was your's was: ");
+        String temp = input.nextLine();
+        r.setMyname(temp);
+        r.setting();
+    }
+}
+----------/////-------------///
+run:
+The first name of was your's was: Aamir
+My name is Aamir
+BUILD SUCCESSFUL (total time: 5 seconds)
+
