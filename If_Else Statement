@@ -16,3 +16,6 @@ run:
 This will be else
 BUILD SUCCESSFUL (total time: 1 second)
 
+-----//////////======------------------
+
+So here we can use  > , < , == and !=
